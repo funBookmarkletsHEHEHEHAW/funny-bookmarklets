@@ -1,0 +1,1 @@
+javascript: (() => {  var websites = [    "https://www.pbskids.org/",    "https://www.funbrain.com/",    "https://www.starfall.com/",    "https://www.coolmath4kids.com/",    "https://www.natgeokids.com/"  ];  var i = Math.floor(Math.random() * websites.length);  window.location = websites[i];})();
